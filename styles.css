@@ -417,9 +417,9 @@ nav{
         padding-bottom: 2rem;
     }
     .li-item{
-        z-index: 1;
+        z-index: -98;
     }
-    .nav-item:hover{
+    .nav .li-item:hover{
         border: 0;
     }
     .li-item a{
@@ -444,6 +444,9 @@ nav{
     }
 }
 @media (max-width:425px){
+    #body-00 .section{
+        padding-inline: 1rem;
+    }
     #moon-img{
         width: 22rem;
         height: 22rem;
