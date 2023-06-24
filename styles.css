@@ -19,7 +19,7 @@ nav{
     background: hsl(0 0% 100% / 0.1);
     backdrop-filter: blur(1rem);
     padding-right: 6rem;
-    z-index: 3;
+    z-index: 300;
 }
 .navbar-nav:first-child{
     padding-left: 4rem;
