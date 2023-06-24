@@ -416,6 +416,12 @@ nav{
         padding-left: 0;
         padding-bottom: 2rem;
     }
+    .li-item{
+        z-index: 1;
+    }
+    .nav-item:hover{
+        border: 0;
+    }
     .li-item a{
         font-size: 1.1rem;
         letter-spacing: 0;
